@@ -9,9 +9,9 @@
         var url = "";
 
         if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-          url = "https://play.google.com/store/apps/details?id=com.iyigamesmete.ColorSticks";
-        } else if (/android/i.test(userAgent)) {
           url = "https://apps.apple.com/tr/app/colorsticks/id1167649397?l";
+        } else if (/android/i.test(userAgent)) {
+          url = "https://play.google.com/store/apps/details?id=com.iyigamesmete.ColorSticks";
         } else {
           url = "https://www.iyistudios.com"; // Masaüstü veya tanımsız cihazlar için
         }
@@ -24,3 +24,4 @@
     <p>Color Sticks - Redirecting App Store or Google Play Store</p>
   </body>
 </html>
+
